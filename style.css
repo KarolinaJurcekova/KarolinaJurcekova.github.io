@@ -1,0 +1,80 @@
+.headr {
+    font-family: Abril Fatface;
+    font-size: 50px;
+    color: #505050;
+    display:flex;
+    flex-direction:column;
+    background:url(http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png);
+    background-size: cover;
+    height:400px;
+    justify-content:flex-end; 
+    align-content:left
+  }
+  
+  .headr1 {
+    font-family: Abril Fatface;
+    font-size: 40px;
+    color: #505050;
+    margin:0px;
+    margin-left:300px;
+    font-variant:normal;
+  }
+  
+  h1 {
+    margin:0px;
+    margin-bottom:10px;
+    margin-left:300px;
+  }
+  
+  p, ul {
+    font-family:'Josefin Sans', sans-serif;
+    color: #505050;
+  }
+  
+  h2, h3 {
+    font-family:'Merriweather', serif;;
+    }
+  
+  h4 {
+    font-family:'Merriweather', serif;
+    font-size:15px;
+    font-style:italic;
+    }
+  
+  blockquote {
+    background: #505050;
+    color: white;
+    font-family: Abril Fatface;
+    margin-top:30px;
+    margin-left:0px;
+    width:100%;
+    font-size:40px;
+    padding:30px;
+    padding-right:20px;
+    position:relative;
+    }
+  
+  blockquote::before{
+    content:'"';
+    font-family: georgia;
+    font-size:70px;
+    position:absolute;
+    top:0px;
+    left:0px;
+  }
+  
+  .text_center {
+    max-width:650px;
+    margin:auto;
+  }
+  
+  h2 {
+    font-variant:small-caps;
+    margin-bottom:40px;
+    margin-top:40px;
+  }
+  
+  .fifth_text {
+    border-top: solid black 2px;
+    margin-top: 30px;
+  }
